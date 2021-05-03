@@ -1,0 +1,70 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+
+/* SETTINGS PART */
+
+button{
+    margin-top: 0.5rem;
+    width: 70%
+}
+
+.reset{
+    width: 100px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AREA PART */
+
+.areaContainer{
+    margin-top: 1.5rem;
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    position: relative;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+}
+.hidden{
+    display: none;
+}
+
+.snake{
+    background-color: green;
+}
+
+.point{
+    background-color: red;
+}
+
+/* GAMEOVER PART */
+
+.gameover{
+    text-align: center;
+    background-color: turquoise;
+    color: tomato;
+    padding: 0.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    top:50%;
+    margin-top: 1rem;
+}
